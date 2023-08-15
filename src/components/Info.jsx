@@ -13,7 +13,7 @@ function Info() {
 
   useEffect(() => {
     axios
-      .post("http://localhost:5000/info/fetchInfo", { token: token })
+      .post("https://cv-back-server-kauq.onrender.com/info/fetchInfo", { token: token })
       .then(({ data }) => setOneuser(data))
       .catch((err) => console.log(err.message));
   }, []);
@@ -87,7 +87,7 @@ function Info() {
     data.token = token;
     console.log(data, "!!!!!!!!!!!!");
     axios
-      .patch("http://localhost:5000/info/publishInfo", data)
+      .patch("https://cv-back-server-kauq.onrender.com/info/publishInfo", data)
       .then(({ data }) => console.log("sent"))
       .catch((err) => console.log(err));
   };

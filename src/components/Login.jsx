@@ -8,7 +8,7 @@ function Login() {
 
   async function checkandlogin(usernameinsert, passwordinsert) {
     try {
-      const token1 = await axios.post("http://localhost:5000/user/loginFunc", {
+      const token1 = await axios.post("https://cv-back-server-kauq.onrender.com/user/loginFunc", {
         username: usernameinsert,
         password: passwordinsert,
       });
@@ -24,11 +24,11 @@ function Login() {
     console.log(usernamefirst, passwordfirst, emailfirst);
     try {
       const { data } = await axios.post(
-        "http://localhost:5000/user/publishUser",
+        "https://cv-back-server-kauq.onrender.com/user/publishUser",
         { username: usernamefirst, password: passwordfirst, email: emailfirst }
       );
       console.log(data);
-      const token2 = await axios.post("http://localhost:5000/user/loginFunc", {
+      const token2 = await axios.post("https://cv-back-server-kauq.onrender.com/user/loginFunc", {
         username: usernamefirst,
         password: passwordfirst,
       });

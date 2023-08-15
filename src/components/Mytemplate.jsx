@@ -13,7 +13,7 @@ function Mytemplate(){
  
    useEffect(() => {
      axios
-       .post("http://localhost:5000/info/fetchInfo", { token: token })
+       .post("https://cv-back-server-kauq.onrender.com/info/fetchInfo", { token: token })
        .then(({ data }) => setOneinfo(data.info))
        .catch((err) => console.log(err.message));
    }, []);
