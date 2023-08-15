@@ -1,0 +1,106 @@
+#homepage-container{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+#up-area{
+    display: flex;
+}
+#leftside{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+}
+#rightside{
+    width: 50%;
+}
+
+#homepage-pic{
+    width: 100%;
+    height: auto;
+}
+#small-pic{
+    width: 60%;
+    height: auto;
+}
+#big-title{
+    font-size: 5vw;
+    margin-bottom: 1.5vw;
+    font-weight: bolder;
+}
+#small-title{
+    font-size: 2.5vw;
+    margin-bottom: 3vw;
+}
+#down-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px;
+}
+.comment-container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    /* height: 200px; */
+    width: 300px;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+.comment-title{
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-left: 3px;
+    
+}
+.description{
+    font-size: 20px;
+    margin-left: 3px;
+}
+.person-comment{
+    font-size: 20px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+@media screen and (max-width:700px) {
+    #up-area{
+        display: block;
+    }
+    #leftside{
+        width: 100%;
+    }
+    #rightside{
+        width: 100%;
+    }
+    #big-title{
+        font-size: 10vw;
+        margin-bottom: 1.5vw;
+        font-weight: bolder;
+    }
+    #small-title{
+        font-size: 5.5vw;
+        margin-bottom: 3vw;
+    }
+    .comment-title{
+        font-size: 20px;
+        font-weight: bolder;
+        text-decoration: underline;
+        margin-left: 3px;
+        
+    }
+    .description{
+        font-size: 15px;
+        margin-left: 3px;
+    }
+    .person-comment{
+        font-size: 15px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+}

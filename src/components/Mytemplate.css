@@ -1,0 +1,564 @@
+
+
+
+ .bottomline-css{
+    border-bottom: 2px solid black;
+ }  
+   
+   
+   #template-container{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #temp1{
+    margin-top: 30px;
+    width: 50vw;
+    height: calc(50vw*1.4);
+    display: flex;
+    box-shadow:  0px 0px 36px rgba(47, 0, 0, 10.1);
+    font-family: "Times New Roman", serif;
+    font-size: 1vw;
+    }
+
+    #rightside-temp1{
+        width: 65%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    #name-temp1{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        font-size: 1.8vw;
+        margin-top: 2vw;
+    }
+    @media screen and (max-width: 700px){
+        #temp1{
+            width: 90vw;
+            height: calc(90vw*1.4);
+            font-size: 1.8vw;
+        }
+        #name-temp1{
+            font-size: 3vw ;
+        }
+    }
+    #name-temp1-inner{
+        width: 85%;
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        word-break: break-word;
+
+    }
+    #freewords-temp1{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    #freewords-temp1-inner{
+        width: 95%;
+        height: 95%;
+        display: flex;
+        align-items: center;
+        word-break: break-word;
+    }
+    #skills-temp1{
+        width: 100%;
+        height: 20%;
+        display: flex;
+    }
+    #skills-temp1-inner{
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto; 
+    }
+    #education-temp1{
+        width: 100%;
+        height: 20%;
+        display: flex;
+    }
+    #education-temp1-inner{
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto; 
+    }
+    #experience-temp1{
+        width: 100%;
+        height: 30%;
+        display: flex;
+    }
+    #experience-temp1-inner{
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;  
+    }
+    #leftside-temp1{
+        width: 35%;
+        height: 100%;
+        background-color: rgba(196,221,243,255);
+        color: rgba(18,9,1,255);
+        display: flex;
+        flex-direction: column;
+    }
+    #imgdiv-temp1{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    #img1{
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+    max-height: 100%;
+    border-radius: 15px;
+    
+    }
+    #inner-div-img{
+        width: 85%;
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    #basicinfo-temp1{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    #basicinfo-temp1-inner{
+        width: 85%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+    }
+    #lang-temp1{
+        width: 100%;
+        height: 30%;
+        display: flex;
+    }
+    #lang-temp1-inner{
+        width: 85%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+    }
+    #hobbies-temp1{
+        width: 100%;
+        height: 15%;
+        display: flex;
+    }
+    #hobbies-temp1-inner{
+        width: 85%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto; 
+        line-break: anywhere;
+    }
+    .inner-title{
+        font-weight: bolder;
+    }
+    /* /////////////////// */
+    #temp2{
+    margin-top: 20px;
+    width: 50vw;
+    height: calc(50vw*1.4);
+    box-shadow:  0px 0px 36px rgba(47, 0, 0, 10.1);
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    }
+    .inner-title-temp2{
+        font-weight: bolder;
+    }
+    #name-temp2{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2vw;
+
+    }
+    @media screen and (max-width: 700px){
+        #temp2{
+            width: 90vw;
+            height: calc(90vw*1.4);
+            font-size: 1.8vw;
+        }
+        #name-temp2{
+            font-size: 3.6vw ;
+        }
+    }
+    #detailes-temp2{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #freewords-temp2{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #freewords-inner-temp2{
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    }
+    #skills-temp2{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #skills-temp2-inner{
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    }
+    .ul-temp2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 80%;
+        list-style-position: inside;
+    }
+    #education-temp2{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #education-temp2-inner{
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    }
+    #expirience-temp2{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #expirience-temp2-inner{
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    }
+    #language-temp2{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #language-temp2-inner{
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+    justify-content: center; 
+    }
+    #ul-lang-temp2{
+    display: flex;
+    list-style: none;
+    }
+    #hobbies-temp2{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #hobbies-inner-temp2{
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+    justify-content: center; 
+    }
+
+    /* /////////////////// */
+
+
+    #temp3{
+        margin-top: 20px;
+        width: 50vw;
+        height: calc(50vw*1.4);
+        display: flex;
+        flex-direction: column;
+        box-shadow:  0px 0px 36px rgba(47, 0, 0, 10.1);
+    }
+
+    #top-temp3{
+        width: 100%;
+        height: 35%;
+        background-color: rgba(43, 56, 38, 255);
+        display: flex;
+    }
+    #leftside-top-temp3{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #img3{
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+    max-height: 100%;
+    border-radius: 15px;
+    
+    }
+    #inner-div-img3{
+        width: 95%;
+        height: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    #rightside-top-temp3{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        padding: 0.2vw;
+    }
+    #name-temp3{
+        font-size: 3vw;
+        color: rgba(248,255,237,255);
+    }
+    #h-temp3{
+        font-size: 2vw;
+        color: rgba(187,222,192,255);
+    }
+    #freewords-temp3{
+        font-size: 1.2vw;
+        color: rgba(187,222,192,255);
+        
+    }
+    @media screen and (max-width: 700px){
+        #rightside-top-temp3{
+            padding: 0.4vw;
+        }
+        #name-temp3{
+            font-size: 6vw;
+        }
+        #h-temp3{
+            font-size: 4vw;
+        }
+        #freewords-temp3{
+            font-size: 2vw;
+        }
+    }
+
+
+    /* all fontsize */
+
+    .temp3-title{
+        font-size: 2vw;
+    }
+    .temp3-inner1{
+        font-size: 1.2vw;
+    }
+    #hobbies-inner{
+        word-break: break-all;
+        font-size: 1vw;
+    }
+
+
+
+    #middle-temp3{
+        width: 100%;
+        height: 60%;
+        display: flex;
+    }
+    #left-middle-temp3{
+        width: 40%;
+        height: 100%;
+        background-color: rgba(248,255,237,255) ;
+        display: flex;
+        flex-direction: column;
+    }
+    #left-middle-temp3-contact{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+
+
+    #left-middle-temp3-skill{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    #left-middle-temp3-languages{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #lang-inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1vw;
+    }
+
+
+
+
+
+    #right-middle-temp3{
+        width: 60%;
+        height: 100%;
+        background-color: rgba(177,194,184,255) ;
+        color: rgba(46,60,41,255)
+    }
+    #right-middle-temp3-experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    height: 45%;
+    }
+    #right-middle-temp3-education{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+        height: 45%;
+    }
+    #right-middle-temp3-hobbies{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 10%;
+    }
+
+
+
+    #bottom-temp3{
+        width: 100%;
+        height: 5%;
+        background-color: rgba(43, 56, 38, 255);
+    }
+
+    @media screen and (max-width: 700px){
+        #temp3{
+            width: 90vw;
+            height: calc(90vw*1.4);
+        }
+        .temp3-title{
+            font-size: 3.6vw;
+        }
+        .temp3-inner1{
+            font-size: 1.8vw;
+        }
+        #hobbies-inner{
+            word-break: break-all;
+            font-size: 1.8vw;
+        }
+        #lang-inner{
+            font-size: 1.6vw;
+        }
+        
+    }
+
+
+    .template-button {
+        width: 30%;
+        padding: 12px;
+        background-color: #4caf50;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .template-button:hover {
+        background-color: #45a049;
+    }
+    @media screen and (max-width: 700px){
+        .template-button {
+            width: 80%;
+        }
+    }
+
+.title{
+    margin: 3vw;
+}
